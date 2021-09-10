@@ -1,6 +1,18 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #e0e0e0;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+.list_view{
+    margin: 2%;
+    width: 40%;
+    background-color: rgb(132,136,139);
 }
 #image_logo{
     height: 60px;

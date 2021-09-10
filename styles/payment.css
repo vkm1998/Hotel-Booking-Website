@@ -1,10 +1,30 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #e0e0e0;
 }
-#container{
-    margin: 0px;
-    padding: 0px;
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+.hotel{
+    background-color: rgb(132,136,139);
+    height: 20%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.hotel1{
+    margin: 2%;
+}
+.hotel2{
+    margin: 2%;
+    border: 1px solid black;
+    padding: 1% 2%;
+    border-radius: 5px;
 }
 #image_logo{
     height: 60px;

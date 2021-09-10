@@ -1,6 +1,21 @@
 body{
     margin: 0px;
     padding: 0px;
+    background-color: #e0e0e0;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+.form_details{
+    margin-left:4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+}
+.descriptions{
+    margin: 1% 4% 2% ;
 }
 #container{
     margin: 0px;
@@ -11,6 +26,9 @@ body{
     width: 60px;
 }
 #image_hotel{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
     height: 500px;
     width: 500px;
 }
