@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin: 0;
+    padding: 0;
+}
+.city_image{
+    height: 150px;
+    width: 150px;
+}
+.social_icons{
+    height: 20px;
+     width: 22px;
+}
