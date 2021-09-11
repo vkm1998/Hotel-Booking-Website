@@ -3,17 +3,22 @@
     <head>
         <title>Details</title>
         <link rel="stylesheet" href="styles/detail.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
-       <div id="container">
-        <header>
-           <a href="index.html">
-            <img  id="image_logo" src="assests/images/logo.png" alt="logo">
-           </a>
-            <a href="login.html" target="_blank">Login</a>
-            
-        </header>
-        <section>
+       <div id="main_container">
+            <header class="header_section">
+                    <div>
+                        <a href="index.html">
+                            <img  id="image_logo" src="assests/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                <div style="padding-right: 2%;">
+                        <a style="text-decoration: none;" href="login.html" target="_blank">Login</a>
+                </div>  
+            </header>
+
+        <section style="padding: 5%;">
             <article>
                 <img id="image_hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
             </article>
@@ -52,22 +57,25 @@
             </article>
         </section>
 
-        <footer>
-            <a href="contact.html" target="_blank">Contact Us</a>
+        <footer class="footer_section">
             <div>
-                <a href="https://www.facebook.com" target="_blank">
-                    <img class="social_icons" src="assests/images/facebook.png" alt="">
-                </a>
-                <a href="https://www.instagram.com" target="_blank">
-                    <img class="social_icons" src="assests/images/instagram.png" alt="">
-                </a>
-                <a href="https://www.twitter.com" target="_blank">
-                    <img class="social_icons" src="assests/images/twitter.png" alt="">
-                </a>
+                <a style="text-decoration: none;color: black;" href="contact.html" target="_blank"><strong>Contact Us</strong></a>
             </div>
-            <div>
+            <div style="display: flex;align-self:flex-end;">
                 &copy; 2020 ROOM SEARCH PVT. LTD.
             </div>
+            <div>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img class="social_image" src="assests/images/facebook.png" alt="">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img class="social_image" src="assests/images/instagram.png" alt="">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img class="social_image" src="assests/images/twitter.png" alt="">
+                </a>
+            </div>
+           
         </footer>
        </div>
     </body>

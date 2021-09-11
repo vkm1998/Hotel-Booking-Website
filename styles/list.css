@@ -1,18 +1,50 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     background-color: #e0e0e0;
 }
-header{
-    background-color: rosybrown;
+article{
+    margin: 0;
 }
-footer{
+.header_section{
     background-color: rosybrown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+}
+.footer_section{
+    background-color: rosybrown;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.lists{
+    display: flex;
+    justify-content:space-evenly
 }
 .list_view{
     margin: 2%;
     width: 40%;
     background-color: rgb(132,136,139);
+}
+.hotel_lists {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+   justify-content:space-between;
+   /* align-content: center; */
+   align-items: center;
 }
 #image_logo{
     height: 60px;
@@ -25,4 +57,7 @@ footer{
 .social_image{
     height: 20px;
     width: 22px;
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
 }

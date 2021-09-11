@@ -2,33 +2,47 @@
 <html>
     <head>
         <title>List</title>
-    </head>
-    <body>  
-        <header>
         <link rel="stylesheet" href="styles/list.css">
-           <a href="index.html">
-            <img  id="image_logo" src="assests/images/logo.png" alt="logo">
-           </a>
-            <a href="login.html" target="_blank">Login</a>
-            
-        </header>
-        <section>
-            <ul>
-                <li>
-                    <a href="#im1">List View</a>
-                </li>
-                <li>
-                    <a href="#map_view">Map View</a>
-                </li>
-            </ul>
-            <a href="detail.html">
-            <div class="list_view">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="im1" class="image_list" alt="">
-                    <h3>Radisson Blu Hotel</h3>
-                    <h5>5 Star</h5>
-                    <h5>New Delhi</h5>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+    <body> 
+        <div class="main_conatiner"> 
+        <header class="header_section">
+            <div>
+                <a href="index.html">
+                    <img  id="image_logo" src="assests/images/logo.png" alt="logo">
+                </a>
             </div>
-        </a>
+          <div  style="padding-right: 2%;">
+            <a style="text-decoration: none;" href="login.html" target="_blank">Login</a>
+          </div>  
+        </header>
+        <article>
+        <section>
+            <div >
+                <ul class="lists" style="list-style: none;">
+                    <li>
+                        <a style="text-decoration:none;color: black;" href="#im1"><strong>List View</strong></a>
+                    </li>
+                    <li>
+                        <a style="text-decoration:none;color: black;" href="#"><strong>Map View</strong></a>
+                    </li>
+                </ul>
+            </div>
+       </section>
+        <section style="padding-bottom: 4%;" class="hotel_lists">
+                <div class="list_view">
+                    <a style="text-decoration: none; color: black;" href="detail.html">
+                        <div  >
+                                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="im1" class="image_list" alt="">
+                                <h3>Radisson Blu Hotel</h3>
+                                <h5>5 Star</h5>
+                                <h5>New Delhi</h5>
+                        </div>
+                    </a>
+                </div>
+                   
+            
             <div class="list_view">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="" class="image_list">
                 <h3>The Lalit New Delhi</h3>
@@ -43,13 +57,21 @@
                     <h5>New Delhi</h5>
                 
             </div>
-            <div id="map_view">
+        </section>
+        <section>
+            <div style="display: none;" id="map_view">
                 <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="">
                 <p>MAPVIEW</p>
             </div>
         </section>
-        <footer>
-            <a href="contact.html" target="_blank">Contact Us</a>
+    </article>
+        <footer class="footer_section">
+            <div>
+                <a style="text-decoration: none;color: black;" href="contact.html" target="_blank">Contact Us</a>
+            </div>
+            <div style="display: flex;align-self:flex-end;">
+                &copy; 2020 ROOM SEARCH PVT. LTD.
+            </div>
             <div>
                 <a href="https://www.facebook.com" target="_blank">
                     <img class="social_image" src="assests/images/facebook.png" alt="">
@@ -61,9 +83,8 @@
                     <img class="social_image" src="assests/images/twitter.png" alt="">
                 </a>
             </div>
-            <div>
-                &copy; 2020 ROOM SEARCH PVT. LTD.
-            </div>
+           
         </footer>
+        </div>
     </body>
 </html>
