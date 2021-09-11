@@ -19,32 +19,34 @@
             </header>
 
         <section style="padding: 5%;">
-            <article>
-                <img id="image_hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
-            </article>
-            <article class="form_details">
-                <form action="payment.html">
-                    <label for="adults">Adults:</label>
-                    <input type="number" min="1" name="adults" id="adults">
-                    <br>
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" required id="name" ><br>
-                    <label  for="check-in">From Date:</label>
-                    <input required type="date" name="check-in" id="check-in"><br>
-                    <label for="check-out">To Date:</label>
-                    <input required type="date" name="check-out" id="check-out"><br>
-                    <label for="total">Total:</label>
-                    <input type="nunber" name="" readonly id="total"><br>
-                    <a href="payment.html" target="_self">
-                        <input type="submit" value="Book Now">
-                    </a>
-                </form>
-            </article>
+            <div class="form_fill">
+                <article style="border: 2px solid black;">
+                    <img style="padding: 0;box-sizing: border-box;" id="image_hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
+                </article>
+                <article class="form_details">
+                    <form action="payment.html">
+                        <label for="adults">Adults:</label>
+                        <input  type="number" min="1" name="adults" id="adults">
+                        <br>
+                        <label for="name">Name:</label>
+                        <input  type="text" name="name" required id="name" ><br>
+                        <label  for="check-in">From Date:</label>
+                        <input  required type="date" name="check-in" id="check-in"><br>
+                        <label for="check-out">To Date:</label>
+                        <input required type="date" name="check-out" id="check-out"><br>
+                        <label for="total">Total:</label>
+                        <input type="nunber" name="" readonly id="total"><br>
+                        <a href="payment.html" target="_self">
+                            <input type="submit" value="Book Now">
+                        </a>
+                    </form>
+                </article>
+            </div>
             <article class="descriptions">
                 <h2>Radisson Blu Hotel</h2>
-                <h5>RATING</h5>
+                <h5 style="font-family: cursive;">RATING</h5>
                 <h6>5 Star</h6>
-                <h5>AMENITIES</h5>
+                <h5 style="font-family: cursive;">AMENITIES</h5>
                 <ul>
                     <li>Room service</li>
                     <li>Restaurant</li>
@@ -52,19 +54,19 @@
                     <li>Fitness center</li>
                     <li>Pool</li>
                 </ul>
-                <h5>DESCRIPTION</h5>
+                <h5 style="font-family: cursive;">DESCRIPTION</h5>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laudantium fugiat praesentium, facere quod odio ex eos, ea explicabo eaque esse, non ab animi quisquam provident velit sapiente itaque molestias?</p>
             </article>
         </section>
 
         <footer class="footer_section">
-            <div>
+            <div style="margin-left: 2%;">
                 <a style="text-decoration: none;color: black;" href="contact.html" target="_blank"><strong>Contact Us</strong></a>
             </div>
             <div style="display: flex;align-self:flex-end;">
                 &copy; 2020 ROOM SEARCH PVT. LTD.
             </div>
-            <div>
+            <div style="margin-right: 2%;">
                 <a href="https://www.facebook.com" target="_blank">
                     <img class="social_image" src="assests/images/facebook.png" alt="">
                 </a>

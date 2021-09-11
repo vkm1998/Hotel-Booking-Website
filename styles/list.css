@@ -35,7 +35,9 @@ article{
 .list_view{
     margin: 2%;
     width: 40%;
-    background-color: rgb(132,136,139);
+    background-color:lightgray;
+    
+    
 }
 .hotel_lists {
     display: flex;
@@ -43,8 +45,9 @@ article{
     margin-right: 10%;
     flex-wrap: wrap;
    justify-content:space-between;
-   /* align-content: center; */
-   align-items: center;
+   margin-bottom: 2%;
+   
+   /* align-items: center; */
 }
 #image_logo{
     height: 60px;
@@ -53,6 +56,7 @@ article{
 .image_list{
     height: 200px;
     width: 250px;
+    float: left;
 }
 .social_image{
     height: 20px;

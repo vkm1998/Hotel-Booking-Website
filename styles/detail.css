@@ -32,6 +32,12 @@ section{
     margin-left:4%;
     margin-right: 4%;
     margin-bottom: 1%;
+    border: 2px solid black;
+}
+.form_fill{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .descriptions{
     margin: 1% 4% 2% ;
@@ -48,8 +54,9 @@ section{
     margin-top: 2%;
     margin-left: 4%;
     margin-right: 4%;
-    height: 500px;
-    width: 500px;
+    height: 350px;
+    width: 350px;
+    float: left;
 }
 .social_image{
     height: 20px;

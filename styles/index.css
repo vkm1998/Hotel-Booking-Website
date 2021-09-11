@@ -71,17 +71,20 @@ article{
     padding: 4%;
     justify-content:space-evenly;
    
+   
 }
 #city_card{
     text-align: center;
     margin-left: 15%;
     margin-right:15%;
+    
    
 }
 .image_dimensions{
     height: 150px;
     width: 150px;
     border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
 }
 .social_image{
     height: 20px;
@@ -96,4 +99,60 @@ article{
 }
 *{
     font-family: 'Ubuntu', sans-serif;
+}
+#img1{
+    visibility: hidden;
+    /* display: flex; */
+    position: relative;
+    align-items: center;
+    bottom: 70%;
+    left:16%;
+    margin-right: 40%;
+    color: #f1f1f1;
+    visibility: hidden;
+}
+#img2{
+    visibility: hidden;
+    /* display: flex; */
+    position: relative;
+    align-items: center;
+    bottom: 70%;
+    left:16%;
+    margin-right: 40%;
+    color: #f1f1f1;
+    visibility: hidden;
+}
+#img3{
+    visibility: hidden;
+    /* display: flex; */
+    position: relative;
+    align-items: center;
+    bottom: 70%;
+    left:16%;
+    margin-right: 40%;
+    color: #f1f1f1;
+    visibility: hidden;
+}
+#img4{
+    visibility: hidden;
+    /* display: flex; */
+    position: relative;
+    align-items: center;
+    bottom: 70%;
+    left:16%;
+    margin-right: 40%;
+    color: #f1f1f1;
+    visibility: hidden;
+}
+.image_dimensions:hover + #img1{
+    visibility: visible;
+}
+.image_dimensions:hover + #img2{
+    visibility: visible;
+}
+.image_dimensions:hover + #img3{
+    visibility: visible;
+}
+.image_dimensions:hover + #img4{
+    visibility: visible;
 }
