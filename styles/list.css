@@ -39,6 +39,9 @@ article{
     
     
 }
+.list_view:hover{
+    background-color: rosybrown;
+}
 .hotel_lists {
     display: flex;
     margin-left: 10%;

@@ -65,3 +65,13 @@ section{
 *{
     font-family: 'Ubuntu', sans-serif;
 }
+#book_now{
+    border-color:green ;
+    opacity: .6;
+    color: white;
+}
+#book_now:hover{
+   
+    background-color: green;
+    color: white;
+}

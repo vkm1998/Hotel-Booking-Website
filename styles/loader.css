@@ -1,11 +1,25 @@
+@keyframes colorChange {
+    from{border-top-color: #444444;}
+    25%{border-right-color: #444444;}
+    50%{border-bottom-color: #444444;}
+    75%{ border-left-color: #444444;}
+  
+    to{border-color: #444444;}
+}
 div{
     height: 70px;
     width: 70px;
     border: 12px solid #f3f3f3;
     border-radius: 50%;
-    border-top-color: #444444;
+   
     margin:0 auto;
     margin:auto;
     margin-top: 20%;
     margin-bottom: 20%;
+    animation-name: colorChange;
+    animation-delay: 0s;
+    animation-direction:normal;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
 }
