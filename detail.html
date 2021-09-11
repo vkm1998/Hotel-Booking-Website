@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Detail</title>
+        <link rel="stylesheet" href="styles/detail.css">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    </head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="scripts/index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+       <div id="main_container">
+            <header class="header_section">
+                    <div>
+                        <a href="index.html">
+                            <img  id="image_logo" src="assests/images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                <div style="padding-right: 2%;">
+                         <!-- Button trigger modal -->
+                         <button style="background-color: white;" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <span style="color: black;"> Login</span>
+                          </button>
+
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                              <div class="modal-content">
+                                  <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Please Login</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                  <form action="#">
+                                      <label for="username">Username:</label>
+                                      <input autocomplete="on" type="text" name="username" id="username"><br>
+                                      <label for="password">Password:</label>
+                                      <input  autocomplete="off" type="password" name="password" id="password">
+                                  </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                  <button type="button" class="btn btn-primary">Login</button>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>
+                </div>  
+            </header>
+
+        <section style="padding: 5%;">
+            <div class="form_fill">
+                <article style="border: 2px solid black;">
+                    <img style="padding: 0;box-sizing: border-box;" id="image_hotel" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
+                </article>
+                <article class="form_details">
+                    <form action="payment.html">
+                        <label for="adults">Adults:</label>
+                        <input  type="number" min="1" name="adults" id="adults">
+                        <br>
+                        <label for="name">Name:</label>
+                        <input  type="text" name="name" required id="name" ><br>
+                        <label  for="check-in">From Date:</label>
+                        <input  required type="date" name="check-in" id="check-in"><br>
+                        <label for="check-out">To Date:</label>
+                        <input required type="date" name="check-out" id="check-out"><br>
+                        <label for="total">Total:</label>
+                        <input type="nunber" name="" readonly id="total"><br>
+                        <div id="book_now">
+                            <a href="payment.html">
+                                <button type="button" class="btn btn-success">Book Now</button>
+                            </a>
+                        </div>
+
+
+                    </form>
+                </article>
+            </div>
+            <article class="descriptions">
+                <h2>Radisson Blu Hotel</h2>
+                <h5 style="font-family: cursive;">RATING</h5>
+                <h6>5 Star</h6>
+                <h5 style="font-family: cursive;">AMENITIES</h5>
+                <ul>
+                    <li>Room service</li>
+                    <li>Restaurant</li>
+                    <li>Business center</li>
+                    <li>Fitness center</li>
+                    <li>Pool</li>
+                </ul>
+                <h5 style="font-family: cursive;">DESCRIPTION</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laudantium fugiat praesentium, facere quod odio ex eos, ea explicabo eaque esse, non ab animi quisquam provident velit sapiente itaque molestias?</p>
+            </article>
+        </section>
+
+        <footer class="footer_section">
+            <div style="margin-left: 2%;">
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Contact Us
+                 </button>
+
+                 <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                     <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                     <h5 class="modal-title" id="exampleModalLabel">Get In Touch</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Thank you for reaching out!!!!</p>
+                                    <p>Please enter your email and we will get back to you.</p>
+                                    <form action="#">
+                                        <label for="useremail">Enter email:</label>
+                                        <input type="email" name="useremail" id="useremail">
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                     </div>
+                </div>
+            </div>
+            <div style="display: flex;align-self:flex-end;">
+                &copy; 2020 ROOM SEARCH PVT. LTD.
+            </div>
+            <div style="margin-right: 2%;">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img class="social_image" src="assests/images/facebook.png" alt="">
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img class="social_image" src="assests/images/instagram.png" alt="">
+                </a>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img class="social_image" src="assests/images/twitter.png" alt="">
+                </a>
+            </div>
+
+        </footer>
+       </div>
+    </body>
+</html>
